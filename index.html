@@ -7,7 +7,7 @@
 	<p><a href="https://jjthething.itch.io/" target="_blank">Find my games here!</a></p>
 	<p>portfolio in progress</p>
 
-	<img src="/images/Beelzebub.gif" alt="From the game Helltaker">
+	<img src="/images/Beelzebub.gif" alt="From the game Helltaker" height="200">
 
 	<table>
 		<tr>
@@ -28,12 +28,11 @@
 		<label for="id">ID here:</label>
 		<input type="number" id="id">
 	</form>
+	<br>
 
-	<canvas id="canvas" width="200" height="200">
-		canvas does not work :(
-	</canvas>
+	<canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">canvas does not work :(</canvas>
 	<script>
-		var c = document.getElementById("canvas");
+		var c = document.getElementById("myCanvas");
 		var ctx = c.getContext("2d");
 		ctx.movTo(66, 0);
 		ctx.lineTo(66, 200);
