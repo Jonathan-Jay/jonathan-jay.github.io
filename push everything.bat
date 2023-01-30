@@ -1,3 +1,3 @@
 git add .
-git commit -m "batch pushed"
+git commit
 git push
