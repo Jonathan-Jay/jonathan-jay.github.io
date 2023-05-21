@@ -1,0 +1,30 @@
+a:link {
+	color: rgb(56, 205, 255);
+	text-decoration: underline;
+}
+a:visited {
+	color: rgb(180, 180, 180);
+	text-decoration: underline;
+}
+a:hover {
+	color: rgb(152, 99, 203);
+	text-decoration: underline;
+}
+a:active {
+	color: rgb(255, 88, 88);
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.background {
+	background-color: rgb(40, 40, 40);
+	color: rgb(237, 237, 237);
+	text-align: center;
+	font-family: "DM Sans";
+}
+
+.textbody {
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
