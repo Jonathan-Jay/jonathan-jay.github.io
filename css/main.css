@@ -16,15 +16,20 @@ a:active {
 	text-decoration: underline;
 }
 
-.background {
+body {
 	background-color: rgb(40, 40, 40);
 	color: rgb(237, 237, 237);
 	text-align: center;
 	font-family: "DM Sans";
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 75px;
 }
 
 .textbody {
 	text-align: left;
-	margin-left: 10%;
-	margin-right: 10%;
+}
+
+.bigtext {
+	font-size: 50px;
 }
