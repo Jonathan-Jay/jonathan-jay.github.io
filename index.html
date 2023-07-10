@@ -12,30 +12,73 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans">
 	</head>
 	<body>
-		<h1>Jonathan Jay</h1>
-		<h2>Game Dev Portfolio</h2>
+		<h1>Jonathan Jay - Game Dev Portfolio</h1>
 		<p>
 			<div>I make games</div>
-			<div><a href="https://jjthething.itch.io/" target="_blank">Find my games here!</a></div>
-			<div>I wrote this webste in html, you can find the code <a href="https://github.com/Jonathan-Jay/jonathan-jay.github.io">here</a></div>
+			<div class="bigtext"><a href="https://jjthething.itch.io/" target="_blank">Find my games here!</a></div>
+			<div>I wrote this website in html, you can find the code <a href="https://github.com/Jonathan-Jay/jonathan-jay.github.io">here</a></div>
 		</p>
 
+		<h2>About me</h2>
+		<div class="textbody">
+			<p>I'm a programmer that has done work in almost every aspect of games, including:</p>
+			<ul>
+				<li>Gameplay code for every project I've worked on</li>
+				<li>Backend and Engine code for Mecha Mayhem</li>
+				<ul>
+					<li>Gameplay loop handler</li>
+					<li>Scene system with physics handled by Bullet3D</li>
+					<li>Rendering system using OpenGL with variable splitscreen support, post processing, and deferred rendering</li>
+					<li>Morph animation system for meshes, with easy to edit settings (frame duration, animation type, and transtions)</li>
+					<li>FMOD wrapper for a sound manager</li>
+					<li>Gameobjects and Components using entt</li>
+				</ul>
+				<li>Tools for Mecha Mayhem and Table Fable</li>
+				<ul>
+					<li>Level editor using ImGui that saves the data to file with various options for safety (file override checking and sequential naming) for Mecha Mayhem</li>
+					<li>Card data editor using Unity Editor scripts that allow for edting spell card properties and auto-description generation for Table Fable</li>
+				</ul>
+				<li>Server code for Table Fable using TCP and UDP Sockets</li>
+			</ul>
+			<p>I love bringing ideas to life through code and have done plenty of work both in teams and solo</p>
+		</div>
+		<h2>Projects I've worked on</h2>
+		<div><!-- I know ths looks weird, I just needed to remove the space between buttons -->
+			<button class="imagebtn" onclick="changeURL('tablefable.html')"><img height="180px" src="images/TableFableTitle.png" title="Table Fable">
+			</button><button class="imagebtn" onclick="changeURL('mechamayhem.html')"><img height="180px" src="images/MechaMayhemTitle.png" title="Mecha Mayhem">
+			</button><button class="imagebtn" onclick="changeURL('celestialconquest.html')"><img height="180px" src="images/CelestialConquestTitle.png" title="Celestial Conquest">
+			</button><button class="imagebtn" onclick="changeURL('barotrauma.html')"><img height="180px" src="images/BarotraumaTitle.png" title="Barotrauma">
+			</button><button class="imagebtn" onclick="changeURL('gamejams.html')"><div style="width:400px;font-size:50px;">Small Projects</div>
+			</button>
+		</div>
+		<h2>Highlights</h2>
+		Below are some videos and screenshots highlighting work I've done
+		<div>
+			<iframe width="432" height="243" src="https://www.youtube.com/embed/FHW96hJwZfs" title="Mecha Mayhem Gameplay Video"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen></iframe>
+			<iframe width="432" height="243" src="https://www.youtube.com/embed/VzB5tsef2UU" title="Table Fable Gameplay Trailer"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen></iframe>
+			<iframe width="432" height="243" src="https://www.youtube.com/embed/nGfXLOC331k" title="Orbed Cube Full Playthrough"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen></iframe>
+			<iframe width="432" height="243" src="https://www.youtube.com/embed/x940YZnsPtg" title="Barotrauma Full Playthrough"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen></iframe>
+			<img height="243" src="images/BattleTank.png" title="Battle Tank">
+			<img height="243" src="images/Desktop.png" title="Desktop Simulator">
+			<img height="243" src="images/Swish.png" title="Swish Card Game in Windows Console">
+		</div>
 		<div class="textbody">
 			<p>
-				<div>(Most of my repos are public and were worked on while at Ontario Tech University)</div>
-				<div>Website is stll in construction, so not all pages will be full of information</div>
-				<div>The different projects I've worked on:</div>
+				<div>Most of my repos are public and can be consulted to view my work</div>
+				<div>I'll be updating this website periodically</div>
 			</p>
 		</div>
-		<div>
-			<button class="bigtext" onclick="changeURL('tablefable.html')">Table Fable</button>
-			<button class="bigtext" onclick="changeURL('mechamayhem.html')">Mecha Mayhem</button>
-			<button class="bigtext" onclick="changeURL('celestialconquest.html')">Celestial Conquest</button>
-		</div>
-		<div>
-			<button class="bigtext" onclick="changeURL('barotrauma.html')">Barotrauma</button>
-			<button class="bigtext" onclick="changeURL('gamejams.html')">Game Jam Projects</button>
-		</div>
-		<div>If you are reading this, it means that I have not replaced the buttons with images yet</div>
 	</body>
 </html>

@@ -31,5 +31,23 @@ body {
 }
 
 .bigtext {
-	font-size: 50px;
+	font-size: 200%;
+}
+
+.imagebtn {
+	background-color: rgb(100, 100, 100);
+	width: fit-content;
+	height: 200px;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 5px;
+	border: none;
+	color: rgb(255, 255, 255);
+
+	vertical-align: middle;
+	text-align: center;
+}
+.imagebtn:hover {
+	background-color: rgb(150, 150, 150);
+	transition-duration: 0.5s;
 }
