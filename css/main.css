@@ -31,7 +31,21 @@ body {
 }
 
 .bigtext {
-	font-size: 200%;
+	font-size: 2rem;
+}
+
+.textbtn {
+	background-color: rgb(100, 100, 100);
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 5px;
+	border: none;
+	color: rgb(255, 255, 255);
+
+	vertical-align: middle;
+	text-align: center;
 }
 
 .imagebtn {
