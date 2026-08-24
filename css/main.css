@@ -1,5 +1,5 @@
 :root {
-	--sidebar-width: 250px;
+	--sidebar-width: 0px;
 }
 
 a:link {
@@ -25,6 +25,8 @@ body {
 	color: rgb(237, 237, 237);
 	text-align: center;
 	font-family: "DM Sans";
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .sidebar {
@@ -43,12 +45,25 @@ body {
 }
 .sidebar div {
 	padding-left: 20px;
+	padding-right: 20px;
 	padding-bottom: 10px;
+}
+.sidebarbutton {
+	background-color: rgb(100, 100, 100);
+	color: rgb(255, 255, 255);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	padding: 5px;
+
+	vertical-align: middle;
+	text-align: center;
 }
 
 .main {
 	margin-top: 50px;
-	margin-left: var(--sidebar-width);
+	padding-left: var(--sidebar-width);
 }
 
 .textbody {
@@ -68,9 +83,30 @@ body {
 	border-radius: 5px;
 	border: none;
 	color: rgb(255, 255, 255);
+	font-size: 50px;
 
 	vertical-align: middle;
 	text-align: center;
+}
+.textbtn:hover {
+	background-color: rgb(150, 150, 150);
+	transition-duration: 0.5s;
+}
+
+.smltextbtn {
+	background-color: rgb(100, 100, 100);
+	height: 3rem;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	border: none;
+	color: rgb(255, 255, 255);
+
+	vertical-align: middle;
+	text-align: center;
+}
+.smltextbtn:hover {
+	background-color: rgb(150, 150, 150);
+	transition-duration: 0.5s;
 }
 
 .imagebtn {
