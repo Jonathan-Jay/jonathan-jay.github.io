@@ -14,7 +14,7 @@ function insertSidebar() {
 		<button class="smltextbtn" onclick="changeURL('')" style="width: ` + sidebarWidth + `;">Home</button>
 		<button class="smltextbtn" onclick="changeURL('tablefable')" style="width: ` + sidebarWidth + `;">Table Fable</button>
 		<button class="smltextbtn" onclick="changeURL('mechamayhem')" style="width: ` + sidebarWidth + `;">Mecha Mayhem</button>
-		<button class="smltextbtn" onclick="changeURL('calestialconquest')" style="width: ` + sidebarWidth + `;">Celestial Conquest</button>
+		<button class="smltextbtn" onclick="changeURL('celestialconquest')" style="width: ` + sidebarWidth + `;">Celestial Conquest</button>
 		<button class="smltextbtn" onclick="changeURL('barotrauma')" style="width: ` + sidebarWidth + `;">Barotrauma</button>
 		<button class="smltextbtn" onclick="changeURL('sideprojects')" style="width: ` + sidebarWidth + `;">Side Projects</button>
 		<button class="smltextbtn" onclick="changeURL('gamejams')" style="width: ` + sidebarWidth + `;">Jam Projects</button>
