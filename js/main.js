@@ -21,11 +21,11 @@ function insertSidebar() {
 	`;
 	var button = document.createElement("button");
 	button.id = "sidebarbutton";
-	button.textContent = ">>";
 	button.className = "sidebarbutton";
 	button.onclick = toggleSidebar;
 	document.body.insertBefore(button, document.getElementById("main"));
 	document.body.insertBefore(sidebar, button);
+	toggleSidebar();
 }
 
 function toggleSidebar() {
